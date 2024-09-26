@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(14, 14, 14);
+    
+}
+.group {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+.column {
+    display: flex;
+    gap: 5px;
+    width: 210px;
+    height: 540px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.small {
+    width: 100px;
+    height: 100px;
+    background-color: #12372a;
+}
+.long {
+    width: 205px;
+    height: 100px;
+    background-color: #12372a;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    
+}
+.start {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.user {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.groupTwo {
+    display: inline-block;
+    margin-right: 30px;
+  
+}
+.columnTwo{
+    display: inline-flex;
+    gap: 5px;
+    width: 210px;
+    height: 540px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.smallTwo {
+    width: 100px;
+    height: 100px;
+    background-color: #436850;
+}
+.longTwo {
+    width: 205px;
+    height: 100px;
+    background-color: #436850;
+}
+.big {
+    width: 205px;
+    height: 210px;
+    background-color: #436850;
+}
+.columnThree {
+    display: inline-flex;
+    gap: 5px;
+    width: 210px;
+    height: 432px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.groupThree {
+    display: inline-block;
+    background-color: #436850;
+}
+.smallThree {
+    width: 100px;
+    height: 100px;
+    background-color: #436850;
+}
+.groupFour {
+    display: inline-block;
+    margin-right: 30px;
+}
+.columnFour{
+    display: inline-flex;
+    gap: 5px;
+    width: 210px;
+    height: 321px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.smallFour {
+    width: 100px;
+    height: 100px;
+    background-color: #ADBC9F;
+}
+.groupFive {
+    display: inline-block;
+    margin-right: 30px;
+}
+.columnFive {
+    display: inline-flex;
+    gap: 5px;
+    width: 210px;
+    height: 530x;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.longFive {
+    width: 200px;
+    height: 100px;
+    background-color: #FBFADA;
+}
